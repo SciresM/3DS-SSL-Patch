@@ -8,7 +8,7 @@ To use:
 3. Copy to `sdcard:/luma/titles/0004013000002F02/code.bin`.
 4. Enable Game Patching under Luma3DS's configuration.
 
-You may also need to send ClCertA as a client certificate. Unclear on that.
+You may also need to send [ClCertA](https://github.com/SciresM/3DS-SSL-Patch/blob/master/ClCertA.p12?raw=true) as a client certificate. Unclear on that. A copy is included as a .p12 resource, with the password `3ds`.
 
 **NOTE**: As of May 01, 2017, Luma3DS [doesn't actually support patching system modules](https://github.com/AuroraWright/Luma3DS/blob/master/injector/source/patcher.c#L853). You'll need to comment out the check on that line (`if(CONFIG(PATCHGAMES))` will do fine), and rebuild luma manually to use.
 
