@@ -3,7 +3,7 @@ This is a patch for the 3DS SSL module to disable Root CA Verification.
 
 To use:
 
-1. Download the `code.ips` file in the repository, and copy to `sdcard:/luma/titles/0004013000002F02/code.ips`.
+1. Download the `code.ips` file in the repository, and copy to `sd:/luma/sysmodules/0004013000002F02.ips`.
 2. Enable Game Patching under Luma3DS's configuration.
 
 Compiling using the 0004013000002F02 title is also possible, by running `make` with the code.bin in this directory.
